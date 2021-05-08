@@ -1,3 +1,5 @@
+#Create a dictionary that can store entries and output that information to the user. 
+
 # Empty dictionary to hold all entries:
 catalog = {}
 program_stop = True
@@ -28,6 +30,7 @@ while program_stop == True:
         entry_to_delete = input("Whose entry would you like to delete? ")
         if entry_to_delete == catalog["user_name"]:
             del catalog["user_name"]
+            del catalog["user_number"]
             print("The entry has been deleted.")
         else:
             print("We don't have anyone with that name in our database.")
