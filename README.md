@@ -1,1 +1,1 @@
-This repo contains a small phonebook app that can take entries, as well as look them up and delete them. Currently working out how to store more than one entry. 
+This repo contains a small phonebook app that can take entries, as well as look them up and delete them. 
